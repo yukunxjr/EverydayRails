@@ -209,13 +209,13 @@ GEM
     rexml (3.2.5)
     rspec-core (3.11.0)
       rspec-support (~> 3.11.0)
-    rspec-expectations (3.11.0)
+    rspec-expectations (3.11.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.11.0)
     rspec-mocks (3.11.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.11.0)
-    rspec-rails (5.1.1)
+    rspec-rails (5.0.3)
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       railties (>= 5.2)
@@ -223,7 +223,7 @@ GEM
       rspec-expectations (~> 3.10)
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
-    rspec-support (3.11.0)
+    rspec-support (3.11.1)
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     rubyzip (2.3.2)
@@ -304,7 +304,7 @@ DEPENDENCIES
   net-smtp
   puma (~> 5.0)
   rails (= 7.0.2.3)
-  rspec-rails
+  rspec-rails (~> 5.0.0)
   sassc-rails
   selenium-webdriver
   shoulda-matchers
