@@ -12,11 +12,6 @@ RSpec.describe ProjectsController, type: :controller do
                 sign_in @user
                 get :index
                 expect(response).to  be_successful
-            end
-            # 200レスポンスを返すこと
-            it "responds successfully" do
-                sign_in @user
-                get :index
                 expect(response).to  have_http_status "200"
             end
         end
